@@ -1,12 +1,14 @@
 {
-  "name": "helm",
-  "description": "helmet",
+  "name": "TV Man",
+  "description": "It Seems he's got an upgrade.",
   "start_url": "https://helloama.github.io/tvmanhead/tvmanhelm.glb",
   "components": [
     {
       "key": "wear",
       "value": {
-        "skinnedMesh": "helm"
+        "boneAttachment": "head",
+        "position": [0, 0.1, 0],
+        "quaternion": [0, 0, 0, 1]
       }
     }
   ]
